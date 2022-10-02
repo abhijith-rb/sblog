@@ -1,0 +1,19 @@
+.abouta{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(177, 245, 222);
+  width: 100%;
+  height: 350px;
+}
+
+.abouth{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.aboutd{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
