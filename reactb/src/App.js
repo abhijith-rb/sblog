@@ -10,6 +10,7 @@ import Register from "./pages/register/Register";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Search from "./pages/search/Search";
+import DeleteAcc from './pages/delete/DeleteAcc';
 import {
   BrowserRouter as Router,
   Routes,
@@ -34,6 +35,7 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>} />
     <Route path="/search" element={<Search/>} />
+    <Route path="/deleteAcc" element={user ? <DeleteAcc/> : <Register/>} />
 
     </Routes>
     </Router>

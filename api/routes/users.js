@@ -13,12 +13,9 @@ router.put("/:id", async (req,res) =>{
         }
         try{
             const updatedUser = await User.findByIdAndUpdate(req.params.id,{
-                $set:{
-                username:req.body['username'],
-                
-                email:req.body['email'] ,
-                password:req.body['password']}
-            },                                  //$set:req.body
+                $set:req.body
+                   
+            },                                  //
             {new:true});                                     
             res.status(200).json(updatedUser);
             console.log(req.body)

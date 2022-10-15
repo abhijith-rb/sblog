@@ -1,5 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
 export const LoginStart = (userCredentials) => ({
     type: "LOGIN_START",
 });
@@ -28,4 +26,17 @@ export const UpdateSuccess = (user) => ({
 
 export const UpdateFailure = ()=> ({
     type: "UPDATE_FAILURE",
+})
+export const DeleteStart = (user) => ({
+    type: "DELETE_START",
+    payload: user,
+});
+
+export const DeleteSuccess = () => ({
+    type: "DELETE_SUCCESS",
+});
+
+export const DeleteFailure = (user)=> ({
+    type: "DELETE_FAILURE",
+    payload: user,
 })

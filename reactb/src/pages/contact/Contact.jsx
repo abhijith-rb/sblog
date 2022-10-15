@@ -12,9 +12,11 @@ export default function Contact() {
         </div>
 
         <div className='social'>
+        <a href='https://www.instagram.com/aj.r.b/'><i className="topIcon fa-brands fa-square-instagram"></i></a>
+      
         <i className="topIcon fa-brands fa-facebook"></i>
         <i className="topIcon fa-brands fa-square-twitter"></i>
-        <i className="topIcon fa-brands fa-square-instagram"></i>
+        
 
         </div>
         

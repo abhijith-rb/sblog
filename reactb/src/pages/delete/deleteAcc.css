@@ -1,0 +1,21 @@
+.formWrap{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.headline{
+    color: red;
+    margin-bottom: 70px;
+}
+.label{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.input{
+    width: 25%;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+}

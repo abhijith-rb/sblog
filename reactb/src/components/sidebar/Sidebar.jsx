@@ -40,9 +40,10 @@ export default function Sidebar() {
         <div className="sidebarItem">
             <span className="sidebarTitle">FOLLOW US</span>
             <div className="sidebarSocial">
+            <a href='https://www.instagram.com/aj.r.b/'><i className="sidebarIcon fa-brands fa-square-instagram"></i></a>
             <i className="sidebarIcon fa-brands fa-facebook"></i>
             <i className="sidebarIcon fa-brands fa-square-twitter"></i>
-            <i className="sidebarIcon fa-brands fa-square-instagram"></i>
+            
             </div>
         </div>
     </div>

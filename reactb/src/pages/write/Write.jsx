@@ -68,10 +68,10 @@ export default function Write() {
                 <input type="text" placeholder="Title" className="writeInput" autoFocus={true}
                 onChange={(e)=> setTitle(e.target.value)} />
 
-                <input type="text" placeholder="Category" className="writeInput" autoFocus={true}
+                <input type="text" placeholder="Category 1" className="writeInput" autoFocus={true}
                 onChange={(e)=> setCategory1(e.target.value)} />
 
-                <input type="text" placeholder="Category" className="writeInput" autoFocus={true}
+                <input type="text" placeholder="Category 2" className="writeInput" autoFocus={true}
                 onChange={(e)=> setCategory2(e.target.value)} />
                 
             </div>
